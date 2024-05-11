@@ -50,7 +50,7 @@ const caseStudyContent = [
     {
         id: "case3",
         heading: "Vocablyfy",
-        content: "Vocablyfy is a Japanese flashcard generator I created after identifying functionality that didn't exist within the domain. The key differentiating features are the ability to filter by word type and the multi-level flashcards. The flashcards are based on existng Japanese textbooks or the vocabulary of the JLPT, with the aim of drawing from the demographic of students using these utilities in their studies.",
+        content: "Vocablyfy is a Japanese flashcard generator I created after identifying functionality that didn't exist within the domain. The key differentiating features are the ability to filter by word type and the multi-level flashcards. The flashcards are based on Japanese textbooks or the vocabulary of the JLPT, with the aim of drawing from the demographic of students using these utilities in their studies.",
         image: "/images/vocablyfy.webp",
         imageAlt: "Vocablyfy cover image",
         buttonText: "View Project",
@@ -231,7 +231,7 @@ const CaseStudies = () => {
                                         <Typography color="white" variant="button" sx={{fontWeight: "600"}}>{items.buttonText}</Typography>
                                     </Button>
                                     {items.id === "case1" &&
-                                        <Button className="case-button" variant="outlined" sx={outlinedButton} href={items.url} target="_blank">
+                                        <Button className="case-button" variant="outlined" sx={outlinedButton} href="https://github.com/timelytmle/portfolio" target="_blank">
                                             <Typography variant="button" sx={{fontWeight: "400"}}> View Github</Typography>
                                         </Button>
                                     }
