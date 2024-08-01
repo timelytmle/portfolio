@@ -3,7 +3,7 @@ import { useTheme } from '@mui/material/styles';
 
 const Copyright = () => {
     return (
-        <Typography component="footer">
+        <Typography>
         {"Thien Tran © "}{new Date().getFullYear()}{" : "}<Link color="secondary" href="/">thienwebdesign.netlify.app</Link>
         </Typography>
     )
